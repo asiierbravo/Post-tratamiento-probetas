@@ -1,1 +1,7 @@
 # Post-tratamiento-probetas
+
+Este repositorio contiene el código desarrollado para el análisis de resultados experimentales dentro del Trabajo de Fin de Grado titulado “Estudio de las propiedades mecánicas de resinas fotosensibles para la fabricación de stents cardiovasculares mediante impresión 3D por SLA”.
+
+El código tiene como finalidad procesar y analizar datos obtenidos de ensayos mecánicos de tracción y flexión realizados sobre probetas fabricadas con distintas resinas y condiciones de postcurado. A través de este software, se extraen parámetros mecánicos relevantes como el módulo elástico, la resistencia máxima o la elongación, y se realiza un análisis estadístico de sensibilidad utilizando la técnica ANOVA. Todo el análisis está orientado a determinar qué variables tienen mayor influencia en el comportamiento mecánico de los materiales empleados. Este programa ha sido desarrollado en Python 3.10 y requiere la instalación de las siguientes librerías: pandas, numpy, scipy, statsmodels y matplotlib. Para facilitar su instalación, se recomienda crear un entorno virtual e instalar las dependencias mediante el gestor de paquetes pip. En caso de disponer de un archivo requirements.txt, bastaría con ejecutar el comando pip install -r requirements.txt desde la raíz del repositorio.
+
+Para su ejecución, es necesario disponer de los archivos .csv que contienen los resultados experimentales.
